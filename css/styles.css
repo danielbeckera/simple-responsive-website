@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 1.5rem;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  color: #143774;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.continueReading a {
+  font-size: 0.6em;
+  text-transform: uppercase;
+  color: #1792d2;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
+
+.continueReading a:hover {
+  color: #707070;
+  border-bottom: 1px solid #707070;
+}
+
+.subtitle {
+  font-size: 0.6rem;
+  text-align: center;
+  margin: 0;
+  color: #1792d2;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07rem;
+}
+
+p {
+  color: #707070;
+}
+
+.postInfo {
+  color: #707070;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  margin-bottom: 3em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article h1 {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #717171;
+}
+
+nav a:hover {
+  border-bottom: 1px solid #717171;
+}
+
+.title {
+  margin-bottom: 0.05em;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar li {
+  font-weight: bold;
+  margin-right: 2em;
+  text-transform: uppercase;
+}
+
+.recent-article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+}
+
+.photoAndInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paragraphAboutMe {
+  font-size: 1rem;
+  margin: 0;
+  color: #143774;
+  font-weight: 400;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  align-self: center;
+  margin-bottom: 0.3em;
+}
+
+.recentArticleImage {
+  width: 250px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.aboutmeImg {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.titleAboutMe {
+  margin-bottom: 1em;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+@media (min-width: 751px) {
+  .container-flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  header {
+    margin-bottom: 5em;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .recent-article {
+    flex-direction: row;
+  }
+
+  aside {
+    margin: 3em;
+  }
+}
